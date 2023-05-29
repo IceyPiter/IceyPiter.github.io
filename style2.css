@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+/*  */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background: no-repeat center/cover url('https://wallpapers.com/images/featured/au2wnwdkhi4d7y9k.jpg');
+    height: calc(110vh - 150px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    text-shadow: 0px 0px 15px rgb(255,255,255);
+    margin: 0 10px;
+    color: white;
+}
+
+.header-content {
+    max-width: 300px;
+    margin:5px auto;
+    text-align: center;
+    text-shadow: white;
+}
+
+.header-content h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    text-shadow: 0px 0px 15px rgb(255,255,255);
+}
+
+header nav h2 {
+    color: white;
+}
+
+.Jogadores {
+    background: white;
+    padding: 15px;
+}
+
+.Jogadores .Jogadores-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.Jogadores .card-image {
+    width: 250px;
+    height: 350px;
+    left: calc(50% - 150px);
+    border-radius: 24px 24px 24px 24px;
+    object-fit: cover;
+}
+
+.Jogadores .Jogadores-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    color: black;
+}
+
+.Jogadores .card-1 {
+    width: 250px;
+    height: 460px;
+    background: black;
+    margin: 10px;
+    right: calc(50% - 70px);
+    display: flex;
+    border-radius: 24px 20px;
+    position: relative;
+}
+.Jogadores .card-2 {
+    width: 250px;
+    height: 460px;
+    display: flex;
+    left: calc(50% - 300px);
+    margin: 10px;
+    background: black;
+    border-radius: 24px 20px;
+    position: relative;
+}
+
+.Jogadores .card-content h1{
+    margin: 11px;
+    color: white;
+}
+
+.Jogadores .card-content {
+    padding: 0 25px;
+    justify-content: center;
+}
+.Jogadores .card-content .ul1 h2{
+    display: flex;
+    padding: 0;
+    flex-direction: center;
+
+}
+
+.Jogadores .card-content ul li{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 3px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 15px rgb(0,0,0);
+}
+
+.Jogadores .card-content li svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.Jogadores .card-1 .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: black;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Jogadores .card-1 .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 310px;
+    background: black;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Jogadores .card-1 .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Jogadores .card-2 .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: black;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Jogadores .card-2 .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 310px;
+    background: black;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Jogadores .card-2 .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.mapa {
+    text-align: center;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+    
+    max-width: 400px;
+
+    margin: 20px 670px;
+    flex-wrap: wrap;
+    color: white;
+    text-shadow: 0px 0px 15px rgb(255,255,255);
+    margin-bottom: 50px;
+
+    right: calc(50% - 300px);
+    object-fit: cover;
+}
+
+
+    .contato {
+        padding: 60px;
+        position: relative;
+        text-align: right;
+        color: white;
+    }
+    
+    .contato .contatos {
+        position: absolute;
+        z-index: 99;
+        border-radius: 8px;
+        top: calc(50% - 150px);
+        left: calc(20% - 175px);
+        text-align: center;
+        display: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contato .contatos h1 {
+        padding-left: 50px;
+        text-align: left;
+    }
+    
+    .contato .contatos li {
+        font-size: .8rem;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        margin: 15px;
+    }
