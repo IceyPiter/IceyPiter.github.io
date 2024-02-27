@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.cartoes{
+    display: flex;
+    justify-content: center;
+    background-color: lightsteelblue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+}
+
+.card{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 20%;
+    height: 20%;
+}
+
+.card-text{
+    font-size: 80%;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link:hover{
+    color: rgba(240, 248, 255, 0.699);
+}
+
+#barranavega{
+    border-bottom: 1px solid white;
+    background-color: lightsteelblue;
+}
+
+.imgacabam{
+    width:250px;
+}
+
+.imgacab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 42%;
+}
